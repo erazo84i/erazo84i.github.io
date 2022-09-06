@@ -1,0 +1,122 @@
+body{
+    background-color: #66f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #2adcdc;
+}
+
+
+header h1{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-ingreso{
+    display: flex;  
+    flex-direction: column;
+    margin-right:50px;
+    margin-top: 50px;
+}
+.input-ingreso{
+    width: 500px;
+    height: 355px;
+    border: none;
+    border-radius: 5px;
+}
+
+.titulo{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 10px;
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+}
+.btn-encriptar{
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 5px;
+    margin: 0 50px 0 50px;
+    cursor: pointer;
+    border: none;
+}
+.btn-encriptar:hover{
+    box-shadow: 2px 2px 4px black;
+}
+
+.btn-desencriptar{
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: rgb(8, 174, 119);
+    color: white;
+    border-radius: 5px;
+    margin: 0 50px 0 50px;
+    cursor: pointer;
+    border: none;
+}
+.btn-desencriptar:hover{
+    box-shadow: 2px 2px 4px black;
+}
+.contenedor-impresion{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.input-impresion{
+    width: 500px;
+    height: 355px;
+    border:none;
+    border-radius: 5px;
+}
+.btn-copiar{
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #3526a7;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-copiar:hover{
+    box-shadow: 2px 2px 4px black;
+}
+.footer{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.footer,.copyright{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    position: static;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+

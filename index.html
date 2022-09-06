@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENCRIPTADOR ALURA-ONE</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="img/Logo.png" alt="">
+        <h1>ENCRIPTADOR ALURA-ONE</h1>
+    </header>
+    <main class="main">
+        <div class="contenedor">
+            <form>
+                <div class="contenedor-ingreso">
+                    <label for="input-ingreso" class="titulo">INGRESE LO QUE DESEA ENCRIPTAR</label>
+                    <textarea name="input-ingreso" id="input-ingreso" class="input-ingreso" cols="30" rows="10"></textarea>
+                    <br>
+                    <div class="botones">
+                        <input type="button" value="ENCRIPTAR" id="btn-encriptar" class="btn-encriptar">
+                        <br>
+                        <input type="button" value="DESENCRIPTAR" id="btn-desencriptar" class="btn-desencriptar">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="contenedor">
+            <form>
+                <div class="contenedor-impresion">
+                    <label for="input-impresion" class="titulo">RESULTADO:</label>
+                    <textarea name="input-impresion" id="input-impresion" class="input-impresion" cols="30" rows="10"></textarea>
+                    <br>
+                    <input type="button" value="COPIAR TEXTO" id="btn-copiar" class="btn-copiar">
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="copyright">Made with ❤️ by ERAZO-DEV-2022</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
